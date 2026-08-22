@@ -747,6 +747,14 @@ svg.bi-instagram {
     .project-thumb {
         height: 220px; /* Reducimos la altura del contenedor del video musical */
     }
+    .project-gallery5 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .project-gallery5 video {
+        height: 1080px; /* Reducimos la altura del video musical */
+    }
 
     /* 7. Ajuste de la Pantalla de Carga (Overlay) */
     .logo-carga2 {
