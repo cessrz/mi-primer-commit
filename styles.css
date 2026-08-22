@@ -711,7 +711,7 @@ svg.bi-instagram {
         gap: 8px;
     }
     .project-gallery img {
-        height: 220px; /* Reducimos la altura para mantener proporción en móviles */
+        height: 150px; /* Reducimos la altura para mantener proporción en móviles */
     }
 
     /* Galería 2: Modelado (Elimina el ancho fijo de 350px que causaba desborde) */
@@ -721,7 +721,7 @@ svg.bi-instagram {
     }
     .project-gallery2 img {
         width: 100%; /* Ahora la imagen se adapta al ancho de la grilla */
-        height: 250px; /* Altura estilizada para móviles */
+        height: 160px; /* Altura estilizada para móviles */
     }
 
     /* Galería 3: Instalaciones */
@@ -732,7 +732,7 @@ svg.bi-instagram {
         gap: 8px;
     }
     .project-gallery3 img {
-        height: 250px;
+        height: 160px;
     }
     .project-gallery4 {
         grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -741,7 +741,7 @@ svg.bi-instagram {
         gap: 8px;
     }
     .project-gallery4 img {
-        height: 250px;
+        height: 160px;
     }
     /* Tarjetas de video */
     .project-thumb {
@@ -753,7 +753,7 @@ svg.bi-instagram {
         gap: 8px;
     }
     .project-gallery5 video {
-        height: 1080px; /* Reducimos la altura del video musical */
+        height: 500px; /* Reducimos la altura del video musical */
     }
 
     /* 7. Ajuste de la Pantalla de Carga (Overlay) */
